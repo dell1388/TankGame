@@ -13,7 +13,7 @@ Instruction:
 
 
  
-| Ben | David | Josh |
+| dell1388 | Lev | Jsparky |
 |----------|----------|----------|
 | 71 hrs | 45 hrs | 30 hrs |
 | [Journal](https://github.com/orgs/bjucps209/projects/14) | [Journal](https://github.com/orgs/bjucps209/projects/15) |[Journal](https://github.com/orgs/bjucps209/projects/16) |
