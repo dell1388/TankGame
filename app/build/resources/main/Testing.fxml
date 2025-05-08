@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="app.RunController" 
+            fx:id="gamePane">
+    
+    <!-- Game Viewport -->
+    <Pane fx:id="viewport" prefWidth="800" prefHeight="600" >
+        <!-- World Group (everything moves) -->
+        <Group fx:id="world">
+            <!-- Example tile -->
+            <Rectangle x="0" y="0" width="1000" height="1000"/>
+            <!-- Player (stays centered) -->
+            <Rectangle fx:id="player" width="40" height="40"/>
+        </Group>
+    </Pane>
+</AnchorPane>

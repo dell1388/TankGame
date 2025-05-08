@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.MainWindow" fx:id="rootPane">
+    <!-- background image -->
+    <ImageView fx:id="menuBackgroundImage" 
+               fitWidth="${rootPane.width}" 
+               fitHeight="${rootPane.height}" 
+               preserveRatio="true" 
+               smooth="false">
+        <image>
+            <Image url="@/app/images/Buttons_and_Text/home.png"/>
+        </image>
+    </ImageView>
+    <!-- KV-1 Turret -->
+    <ImageView fx:id="MenuKV1Turret"
+               fitWidth="${menuBackgroundImage.fitWidth * 0.35}"
+               fitHeight="${menuBackgroundImage.fitHeight * 0.35}"
+               preserveRatio="true"
+               translateX="${menuBackgroundImage.fitWidth * -0.205}"
+               translateY="${menuBackgroundImage.fitHeight * 0.0835}">
+        <image>
+            <Image url="@/app/images/Tanks/KV-1/ww2_top_view_turret5.png"/>
+        </image>
+    </ImageView>
+    <!-- Panzer 4 -->
+    <ImageView fx:id="MenuPanzer4Turret"
+               fitWidth="${menuBackgroundImage.fitWidth * 0.3}"
+               fitHeight="${menuBackgroundImage.fitHeight * 0.3}"
+               translateX="${menuBackgroundImage.fitWidth * 0.205}"
+               translateY="${menuBackgroundImage.fitHeight * -0.07}"
+               preserveRatio="true">
+        <image>
+            <Image url="@/app/images/Tanks/Panzer 4/ww2_top_view_turret2.png"/>
+        </image>
+    </ImageView>
+    <!-- Cords (start as hidden) -->
+    <Text fx:id="coordsText"
+          text="Mouse: X=0, Y=0"
+          translateX="${menuBackgroundImage.fitWidth * 0.0125}"
+          translateY="${menuBackgroundImage.fitHeight * 0.4}"
+          visible="false"
+          style="-fx-fill: red;"/>
+    <!-- Options (start as hidden)
+    <GridPane fx:id="showOptions"
+          visible="false">
+        <ImageView fx:id="playButton" 
+                   fitWidth="${menuBackgroundImage.fitWidth * 0.2}" 
+                   fitHeight="${menuBackgroundImage.fitHeight * 0.2}" 
+                   pickOnBounds="true" 
+                   preserveRatio="true" 
+                   smooth="false" 
+                   GridPane.rowIndex="0" 
+                   GridPane.columnIndex="0"
+                   GridPane.halignment="CENTER"
+                   GridPane.valignment="CENTER"/>
+        <ImageView fx:id="returnToMenuButton" 
+                    fitWidth="${menuBackgroundImage.fitWidth * 0.2}" 
+                    fitHeight="${menuBackgroundImage.fitHeight * 0.2}" 
+                    pickOnBounds="true" 
+                    preserveRatio="true" 
+                    smooth="false" 
+                    GridPane.rowIndex="1" 
+                    GridPane.columnIndex="0"
+                    GridPane.halignment="CENTER"
+                    GridPane.valignment="CENTER"/>
+    </GridPane> -->
+    <!-- Buttons -->
+    <GridPane fx:id="buttonGrid"
+              prefWidth="${menuBackgroundImage.fitWidth}"
+              prefHeight="${menuBackgroundImage.fitHeight}"
+              vgap="${menuBackgroundImage.fitHeight * 0.05}"
+              alignment="CENTER">
+        <ImageView fx:id="playButton" 
+                   fitWidth="${menuBackgroundImage.fitWidth * 0.2}" 
+                   fitHeight="${menuBackgroundImage.fitHeight * 0.2}" 
+                   pickOnBounds="true" 
+                   preserveRatio="true" 
+                   smooth="false" 
+                   GridPane.rowIndex="0" 
+                   GridPane.columnIndex="0"
+                   GridPane.halignment="CENTER"
+                   GridPane.valignment="CENTER"/>
+        <ImageView fx:id="newGameButton" 
+                   fitWidth="${menuBackgroundImage.fitWidth * 0.2}" 
+                   fitHeight="${menuBackgroundImage.fitHeight * 0.2}" 
+                   pickOnBounds="true" 
+                   preserveRatio="true" 
+                   smooth="false" 
+                   GridPane.rowIndex="1" 
+                   GridPane.columnIndex="0"
+                   GridPane.halignment="CENTER"
+                   GridPane.valignment="CENTER"/>
+        <ImageView fx:id="quitButton" 
+                   fitWidth="${menuBackgroundImage.fitWidth * 0.2}" 
+                   fitHeight="${menuBackgroundImage.fitHeight * 0.2}" 
+                   pickOnBounds="true" 
+                   preserveRatio="true" 
+                   smooth="false" 
+                   GridPane.rowIndex="2" 
+                   GridPane.columnIndex="0"
+                   GridPane.halignment="CENTER"
+                   GridPane.valignment="CENTER"/>
+    </GridPane>
+</StackPane>

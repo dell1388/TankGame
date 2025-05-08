@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.TanksGameWorldTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2025-05-02T03:50:04.938Z" hostname="Volibear" time="0.026">
+  <properties/>
+  <testcase name="testSpawnCoordsGeneration()" classname="app.TanksGameWorldTest" time="0.004"/>
+  <testcase name="testSingletonInstance()" classname="app.TanksGameWorldTest" time="0.001"/>
+  <testcase name="testPlayerInitialization()" classname="app.TanksGameWorldTest" time="0.001"/>
+  <testcase name="testBulletManagement()" classname="app.TanksGameWorldTest" time="0.0"/>
+  <testcase name="testSpawnBankMechanics()" classname="app.TanksGameWorldTest" time="0.0"/>
+  <testcase name="test_the_constructor_for_TanksGameWorld()" classname="app.TanksGameWorldTest" time="0.0"/>
+  <testcase name="testDamageApplication()" classname="app.TanksGameWorldTest" time="0.001"/>
+  <testcase name="testEnemyCreation()" classname="app.TanksGameWorldTest" time="0.002"/>
+  <testcase name="testEdgeCaseSpawnCoordinates()" classname="app.TanksGameWorldTest" time="0.01"/>
+  <testcase name="testComplexMovement()" classname="app.TanksGameWorldTest" time="0.001"/>
+  <testcase name="testMovementSystem()" classname="app.TanksGameWorldTest" time="0.001"/>
+  <testcase name="testFullEnemySpawnCycle()" classname="app.TanksGameWorldTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

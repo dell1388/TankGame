@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.EntityTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-02T03:50:04.926Z" hostname="Volibear" time="0.004">
+  <properties/>
+  <testcase name="test_Creating_Entity_constructor_getting_setting_method()" classname="app.EntityTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('/app/font/Minecraft.ttf');
+}
+
+.root {
+    -fx-padding: 10; /* Add a small padding around the window */
+}
+
+.leftbutton {
+    -fx-padding: 10;
+}
+
+.propview {
+    -fx-padding: 10;
+}
+
+.current {
+    -fx-effect: dropshadow(three-pass-box, rgb(255, 0, 0), 10, 0, 0, 0);
+}
+
+.score-text {
+    -fx-font-family: 'Minecraft, sans-serif';
+    font-family: 'Minecraft, sans-serif';
+    -fx-font-size: 16;
+    font-size: 16;
+}

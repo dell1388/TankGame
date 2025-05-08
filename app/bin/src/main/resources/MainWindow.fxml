@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.id.*?>
+<?import javafx.scene.layout.GridPane?>
+
+
+<VBox xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1"
+      alignment="CENTER" prefHeight="200.0" prefWidth="300.0" fx:controller="app.MainWindow">
+    <Button text="Play" onAction="#animate"/>
+    <GridPane>
+      <ImageView fx:id="imageView" GridPane.columIndex="1" GridPane.rowIndex="1" onMousePressed="#playClicked"> 
+        <image>
+          <Image>
+          </Image>
+        </image>
+      </ImageView>
+    </GridPane>
+</VBox>
