@@ -249,16 +249,16 @@ public class MainWindow extends Application {
         Media media = new Media(
                 getClass().getResource("music/uk/tipperary.mp3").toString());
         System.err.println("1");
-        MediaPlayer mediaPlayer = new MediaPlayer(song);
+        // MediaPlayer mediaPlayer = new MediaPlayer(song);
         System.err.println("2");
-        mediaPlayer.play();
+        // mediaPlayer.play();
         System.err.println("3");
-        mediaPlayer.setVolume(0.6);
-        mediaPlayer.setOnEndOfMedia(() -> {
+        // mediaPlayer.setVolume(0.6);
+        // mediaPlayer.setOnEndOfMedia(() -> {
         // Loop when audio ends
-        mediaPlayer.seek(mediaPlayer.getStartTime());
-        mediaPlayer.play();
-        });
+        // mediaPlayer.seek(mediaPlayer.getStartTime());
+        // mediaPlayer.play();
+        // }
 
     }
 

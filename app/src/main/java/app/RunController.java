@@ -472,21 +472,21 @@ public class RunController implements Observer {
     }    
     
     private void scoreUp(){
-        MediaPlayer mediaPlayer = new MediaPlayer(scoreUp);
-        mediaPlayer.play();
-        mediaPlayer.setVolume(0.6);
+        // MediaPlayer mediaPlayer = new MediaPlayer(scoreUp);
+        // mediaPlayer.play();
+        // mediaPlayer.setVolume(0.6);
     } 
 
     private void playShot() {
-        MediaPlayer mediaPlayer = new MediaPlayer(tankShot);
-        mediaPlayer.play();
-        mediaPlayer.setVolume(0.6);
+        // MediaPlayer mediaPlayer = new MediaPlayer(tankShot);
+        // mediaPlayer.play();
+        // mediaPlayer.setVolume(0.6);
     }
 
     private void die() {
-        MediaPlayer mediaPlayer = new MediaPlayer(scream);
-        mediaPlayer.play();
-        mediaPlayer.setVolume(0.6);
+        // MediaPlayer mediaPlayer = new MediaPlayer(scream);
+        // mediaPlayer.play();
+        // mediaPlayer.setVolume(0.6);
     }
 
 }

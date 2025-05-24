@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.CreditsController" fx:id="rootPane">
+    <!-- background image -->
+    <ImageView fx:id="menuBackgroundImage" 
+               fitWidth="${rootPane.width}" 
+               fitHeight="${rootPane.height}" 
+               preserveRatio="true" 
+               smooth="false">
+        <image>
+            <Image url="@/app/images/Buttons_and_Text/blankBackground.png"/>
+        </image>
+    </ImageView>
+</StackPane>
